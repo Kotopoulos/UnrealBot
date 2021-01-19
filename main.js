@@ -26,7 +26,7 @@ client.on('ready', () => {
     console.log('You Shall not Pass!');
 });
 
-bot.on('message', message =>{
+client.on('message', message =>{
     let args = message.content.subsrting(PREFIX.legth).split(" ");
 
 });
