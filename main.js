@@ -52,6 +52,8 @@ client.on('message', message => {
         client.commands.get('unmute').execute(message, args);
     }else if(command === 'ad'){
         client.commands.get('ad').execute(message, args, Discord);
+    }else if(command === 'poll'){
+        client.commands.get('poll').execute(message, args, Discord);
     }
 });
 
