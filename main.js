@@ -26,6 +26,11 @@ client.on('ready', () => {
     console.log('You Shall not Pass!');
 });
 
+bot.on('message', message =>{
+    let args = message.content.subsrting(PREFIX.legth).split(" ");
+
+});
+
 client.on('guildMemberAdd', guildMember =>{
     let welcomeRole = guildMember.guild.roles.cache.find(role => role.name === '<@&799276082020483073>');
 
