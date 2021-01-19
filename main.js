@@ -27,7 +27,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message =>{
-    let args = message.content.subsrting(PREFIX.legth).split(" ");
+    let args = message.content.substring(PREFIX.legth).split(" ");
 
 });
 

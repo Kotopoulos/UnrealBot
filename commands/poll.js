@@ -1,6 +1,6 @@
 module.exports = {
     name: 'poll',
-    description: "Poll!",
+    description: "?poll to make a poll",
     execute (message, args, Discord){
     const newEmbed = new Discord.MessageEmbed()
             .setColor('#9e7d03')
